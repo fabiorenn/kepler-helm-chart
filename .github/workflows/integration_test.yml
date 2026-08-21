@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@main
       - uses: actions/setup-go@main
         with:
-          go-version: 1.18
+          go-version: 1.27
 
       - name: use kepler action for kind cluster build
         uses: sustainable-computing-io/kepler-action@main
